@@ -8,7 +8,7 @@ All calculations are performed step-by-step.
 
 Allows to find the integrals for both equal and unequal flow speeds, masses and temperatures.
 
-Can be used to construct differential equations for number density, temperature, viscosity, thermal conductivity and Sonin polynomial expansion (corresponding polynomials are predefined).
+Can be used to construct differential equations for number density, temperature, viscosity, thermal conductivity and Sonine polynomial expansion (corresponding polynomials are predefined).
 
 ## Definition
 
