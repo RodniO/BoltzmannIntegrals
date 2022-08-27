@@ -68,20 +68,20 @@ $$\gamma_{kl} = - \frac{\eta_{kl}}{n_k T_k}, \quad \alpha_{kl} = - \frac{2\kappa
 </p>
 
 These new quantities then satisfy the following generalized Smoluchowski equations:
-$\begin{aligned}
-  7.5 \frac{\partial \left( \alpha_{kl} n_k \theta_k \right)}{\partial t} + 7.5 \delta_{kl} n_k \theta_k & = \frac{1}{2} \sum_{i+j=k} \left( \alpha_{il} B_{ij}^{\alpha} + \alpha_{jl} B_{ji}^{\alpha} \right) n_i n_j - \sum_{j = 1}^{\infty} \left( \alpha_{kl} C_{kj}^{\alpha 1} + \alpha_{jl} C_{kj}^{\alpha 2} \right) n_k n_j \\
+<p style="text-align: center;">$$\begin{aligned}
+  \frac{15}{2} \frac{\partial \left( \alpha_{kl} n_k \theta_k \right)}{\partial t} + \frac{15}{2} \delta_{kl} n_k \theta_k & = \frac{1}{2} \sum_{i+j=k} \left( \alpha_{il} B_{ij}^{\alpha} + \alpha_{jl} B_{ji}^{\alpha} \right) n_i n_j - \sum_{j = 1}^{\infty} \left( \alpha_{kl} C_{kj}^{\alpha 1} + \alpha_{jl} C_{kj}^{\alpha 2} \right) n_k n_j \\
   & + \sum_{j = 1}^{\infty} \left( \alpha_{kl} D_{kj}^{\alpha 1} + \alpha_{jl} D_{kj}^{\alpha 2} \right) n_k n_j
-\end{aligned}$
+\end{aligned}$$</p>
 and
-$\begin{aligned}
+<p style="text-align: center;">$$\begin{aligned}
   10 \frac{\partial \left( \gamma_{kl} n_k \right)}{\partial t} + 10 \delta_{kl} n_k & = \frac{1}{2} \sum_{i+j=k} \left( \gamma_{il} B_{ij}^{\gamma} + \gamma_{jl} B_{ji}^{\gamma} \right) n_i n_j - \sum_{j = 1}^{\infty} \left( \gamma_{kl} C_{kj}^{\gamma 1} + \gamma_{jl} C_{kj}^{\gamma 2} \right) n_k n_j \\
   & + \sum_{j = 1}^{\infty} \left( \gamma_{kl} D_{kj}^{\gamma 1} + \gamma_{jl} D_{kj}^{\gamma 2} \right) n_k n_j,
-\end{aligned}$
+\end{aligned}$$</p>
 where the kernels are calculated as
-$\begin{aligned}
+<p style="text-align: center;">$$\begin{aligned}
 & B_{ij}^{\alpha} = R (\mathbf{b}_{\alpha}), & \quad & C_{ij}^{\alpha \text{1,2}} = R (\mathbf{c}_{\alpha \text{1,2}}), & \quad & D_{ij}^{\alpha \text{1,2}} = R (\mathbf{d}_{\alpha \text{1,2}}), \\
 & B_{ij}^{\gamma} = R (\mathbf{b}_{\gamma}), & \quad & C_{ij}^{\gamma \text{1,2}} = R (\mathbf{c}_{\gamma \text{1,2}}), & \quad & D_{ij}^{\gamma \text{1,2}} = R (\mathbf{d}_{\gamma \text{1,2}}).
-\end{aligned}$
+\end{aligned}$$</p>
 
 Finally, one can use Sonin polynomial expansion to approximate the speed distribution in homogeneous systems. If one uses only the second Sonin polynomial, so that
 
