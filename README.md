@@ -10,4 +10,6 @@ Allows to find the integrals for both equal and unequal flow speeds, masses and 
 
 Can be used to construct differential equations for number density, temperature, viscosity, thermal conductivity and Sonine polynomial expansion (corresponding polynomials are predefined).
 
-More information about applications will be available in my thesis (plan to defend in September 2022).
+More information is in Readme.tex.md file (unfortunately, it does not compile some inline equations).
+
+Also, you can read my thesis in https://www.inm.ras.ru/wp-content/uploads/dis-sovet/Osinsky/Osinsky_thesis.pdf
